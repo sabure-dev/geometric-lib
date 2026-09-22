@@ -1,7 +1,10 @@
 # Геометрические формулы
 
 ## Общее описание решения
- Набор Python функций для вычисления площади и периметра фигур: круга, прямоугольника, квадрата и треугольника. Каждая фигура реализована в виде отдельных функций, принимающих определенные параметры фигуры.
+ Набор Python функций для вычисления площади и периметра фигур: круга, прямоугольника, квадрата и треугольника. Каждая фигура реализована в виде отдельных функций, принимающих определенные параметры фигуры. Тесты находятся в директории tests и вызываются следующим образом:  
+```
+uv run python -m unittest discover -s tests -v
+```
 
 ## Описание функций с примерами вызова
 
@@ -71,8 +74,18 @@
 
 ## История изменения проекта
 
-- `be5e69c` docs: add docstrings and project documentation
-- `73dd93e` fix: fixed rectangle.py perimeter
-- `cab505b` feat: add rectangle.py
-- `d078c8d` L-03: Docs added
-- `8ba9aeb` L-03: Circle and square added
+| Commit hash | Название |
+|---|---|
+| `22d6d9a` | docs: add docstrings and project documentation |
+| `73dd93e` | fix: fixed rectangle.py perimeter |
+| `cab505b` | feat: add rectangle.py |
+| `86edb1c` | L-05: Update Docs. Add user agreement info |
+| `438b89a` | L-05: Add user agreement |
+| `6adb962` | L-03: Docs added |
+| `3049431` | L-04: Add rectangle.py |
+| `b5b0fae` | L-04: Update docs for calculate.py |
+| `d76db2a` | L-04: Add calculate.py |
+| `51c40eb` | L-04: Doc updated for triangle |
+| `d080c78` | L-04: Triangle added |
+| `d078c8d` | L-03: Docs added |
+| `8ba9aeb` | L-03: Circle and square added |
